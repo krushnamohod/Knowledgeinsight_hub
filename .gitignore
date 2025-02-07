@@ -1,5 +1,5 @@
-/.env
-/dataset
-/models
-/reports
 **/__pycache__/
+dataset/*
+models/*
+reports/*
+!.gitkeep
