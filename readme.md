@@ -1,5 +1,6 @@
 # PS-12: Knowledge Representation and Insights Generation from Structured Datasets
 
+![Problem Statement](https://github.com/krushnamohod/Knowledgeinsight_hub/blob/main/src/static/images/ProblemStatement.png)
 
 We are Quantum Coders, Team Leader **Krushna Mohod** and Team Member **Sudhanshu Atalkar** from **Prof. Ram Meghe Institute of Technology and Research**
 
