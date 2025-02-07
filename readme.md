@@ -36,7 +36,7 @@ To use these resources:
 
 2. Extract both zip files in the root directory of the project, alongside the other folders and files. This will create 'models' and 'data' folders.
 
-3. Ensure that the extracted 'models' and 'data' folders are placed directly in the root directory of the project.
+3. Ensure that the extracted 'models' should be placed in the `models` named folder and 'data' should be placed in the `dataset` named folder of the project.
 
 This will ensure that all scripts and applications can access the necessary data and models.
 
