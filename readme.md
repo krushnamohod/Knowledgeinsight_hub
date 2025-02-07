@@ -5,14 +5,19 @@ We are Quantum Coders, Team Leader **Krushna Mohod** and Team Member **Sudhanshu
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Installation](#installation)
-   - [Prerequisites](#prerequisites)
-   - [Setup Instructions](#setup-instructions)
-4. [Usage](#usage)
-5. [Project Structure](#project-structure)
-6. [Acknowledgements](#acknowledgements)
+- [PS-12: Knowledge Representation and Insights Generation from Structured Datasets](#ps-12-knowledge-representation-and-insights-generation-from-structured-datasets)
+  - [Table of Contents](#table-of-contents)
+  - [Additional Resources](#additional-resources)
+  - [Project Overview](#project-overview)
+  - [Features](#features)
+  - [Installation](#installation)
+    - [System Requirements for CPU](#system-requirements-for-cpu)
+    - [System Requirements for GPU](#system-requirements-for-gpu)
+    - [Setup Instructions For GPU](#setup-instructions-for-gpu)
+    - [Setup Instructions For CPU](#setup-instructions-for-cpu)
+  - [Usage](#usage)
+  - [Project Structure](#project-structure)
+  - [Acknowledgements](#acknowledgements)
 
 ## Additional Resources
 
@@ -118,14 +123,19 @@ Source of the dataset: https://finances.worldbank.org/Loans-and-Credits/IBRD-Sta
 
 3. **Set up Gemini api key:**
    
-   In the root directory of the project there is a file named .env, append your gemini api key  "GEMINI_API_KEY=" here.
+   In the root directory of the project there you need to create a .env named file.
+   In that file paste this
+   ```bash
+   GEMINI_API_KEY="YOUR-API-KEY"
+   ```
+   Now paste your API key which you can generate from [AI STUDIO](https://aistudio.google.com/prompts/new_chat)
 
 
 4. **Run the application:(In the root directory of the project)**
 
     ```
     python CPU_app.py
-  
+    ```
 
 ## Usage
 
@@ -143,7 +153,7 @@ Source of the dataset: https://finances.worldbank.org/Loans-and-Credits/IBRD-Sta
 
 ## Project Structure
 
-```
+```markdown
 .
 ├── CPU_app.py
 ├── GPU_app.py
@@ -204,8 +214,7 @@ Source of the dataset: https://finances.worldbank.org/Loans-and-Credits/IBRD-Sta
     │   └── visualize.html
     ├── visuals_processed
     └── visuals_upload
-
-
+```
 
 ## Acknowledgements
 
